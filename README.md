@@ -17,3 +17,6 @@ _© 2021 XYZ, Inc._
 
 git commit -m "Fixed a typo in the footer of README.md"
 git push origin bug-fix-typo
+git revert <commit-hash>
+git revert HEAD
+git push origin bug-fix-revert
